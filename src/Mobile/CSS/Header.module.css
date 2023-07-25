@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
 .Header{
-    background-color: antiquewhite; ;
+    background-color: #5a2d69 ;
     padding: 10px ;
     margin: 0 0 10px 0 ;
     display: grid ;
@@ -17,30 +17,40 @@
    border-radius: 10px ;
    border: none ;
    padding: 10px ;
+   color: #ba62d7;
 }
 
 .Title{
     font-family: 'Tangerine', cursive;
     text-align: center ;
     font-size: 35px ;
+    color: white;
 }
 
 .CVBtn{
     background-color: transparent ;
     text-align : end ;
     
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .CVBtn button{
-    background-color: azure;
+    background-color: #5a2d69;
     padding: 10px ;
     width: 50px ;
     height: 50px ;
     font-size: 20px ;
     font-weight: bold ;
     border-radius: 50% ;
-    border: none ;
+    border: 3px solid #ba62d7 ;
     text-align: start ;
+    color: #ba62d7;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .CVBtn button::hover{
@@ -49,10 +59,16 @@
 
 .CVBtn button a {
     text-decoration: none ;
+    color: #ba62d7;
+
 }
 
 .SocialLinks{
-    background-color: aquamarine ;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(7.7px);
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr ;
     align-items: center ;
@@ -61,5 +77,5 @@
 }
 
 .SocialLinks a {
-    color: black ;
+    color: white ;
 }

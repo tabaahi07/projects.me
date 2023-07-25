@@ -17,10 +17,19 @@
 
 .ProjectScreenshot {
     padding: 10px;
-    border-radius: 20px;
-    background-color: blueviolet;
+    border-radius: 25px;
+    background-color: #5a2d69;
     cursor: pointer;
     transition: scale 200ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectScreenshot > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ProjectScreenshot>a>img {
@@ -33,11 +42,16 @@
 }
 
 .ProjectDescription {
-    background-color: aquamarine;
+    background-color: transparent;
     padding: 10px;
     display: grid;
     border-radius: 20px;
     grid-template-rows: min-content auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(7.7px);
 }
 
 .ProjectDescriptionTitle {
@@ -45,6 +59,7 @@
     font-weight: 600;
     font-size: 1.25rem;
     padding: 15px 0px;
+    color: white;
 }
 
 .ProjectDescriptionContainer {
@@ -59,6 +74,7 @@
     border-radius: 20px;
     display: flex;
     gap: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -68,19 +84,15 @@
 
 @keyframes animate {
     0% {
-        transform: rotate(0);
+        scale: 1;
     }
-    20% {
-        transform: rotate(30deg);
+
+    50% {
+        scale: 1.1;
     }
-    40% {
-        transform: rotate(0deg);
-    }
-    60% {
-        transform: rotate(-30deg);
-    }
-    80% {
-        transform: rotate(0deg);
+
+    100% {
+        scale: 1;
     }
 }
 
@@ -92,20 +104,22 @@
     border-radius: 20px;
     display: flex;
     gap: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .TechnologiesUsed>img,
 .TechnologiesUsedRight>img {
-    mix-blend-mode: darken;
+    mix-blend-mode: multiply;
     width: 25px;
 }
 
 .Description {
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.15);
     padding: 15px;
     border-radius: 20px;
     display: grid;
     grid-template-rows: auto min-content;
+    color: white;
 }
 
 

@@ -2,4 +2,8 @@
     width: 100vw ;
     height: 100vh ;
     overflow-y: scroll ;
+    background-image: url("../../assets/a530caaa0b4314640a8bb4cd1e2ceb3b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

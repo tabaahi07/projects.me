@@ -8,7 +8,9 @@ const Header = (props) => {
   return (
     <div className={styles.Header}>
       <div className={styles.HambergerMenu}>
-        <button onClick={e=> props.setShowSocialLinks(!props.showSocialLinks)}> {props.showSocialLinks ? <ArrowBackIcon> </ArrowBackIcon>  : <MenuIcon> </MenuIcon>} </button>
+        <button onClick={e => props.setShowSocialLinks(!props.showSocialLinks)}>
+            {props.showSocialLinks ? <ArrowBackIcon> </ArrowBackIcon> : <MenuIcon> </MenuIcon>}
+        </button>
       </div>
 
       <div className={styles.Title}>{config.name}</div>

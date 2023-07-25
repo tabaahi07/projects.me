@@ -1,11 +1,16 @@
 .Project{
-    background-color: cyan;
+    /* background-color: ; */
     border-radius: 10px ;
     display: grid ;
     grid-template-rows: auto ;
     padding: 5px 10px 10px 10px  ;
     margin: 5px ;
     overflow-y: scroll ;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(7.7px);
 }
 
 .Heading{
@@ -16,27 +21,34 @@
     font-weight: 500 ;
     padding: 5px ;
     margin: 3px 5px 3px 5px  ;
+    color: white;
 }
 
 .AppScreenshot{
     background-color: blueviolet;
     padding: 5px ;
     margin: 3px 5px 3px 5px  ;
-    border-radius: 10px ;
-    border: 1px solid black ;
+    border-radius: 15px ;
+    /* border: 1px solid black ; */
     display: flex ;
     align-items: center ;
     justify-content: center ;
 }
 
-.AppScreenshot img{
+.AppScreenshot > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AppScreenshot a img{
     border-radius: 10px ;
     height: auto ;
     width: 100% ;
 }
 
 .TechWrapper{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex ;
     align-items: center ;
     justify-content: center ;
@@ -46,12 +58,13 @@
 }
 
 .TechWrapper .Technologies{
-    background-color: white ;
+    background-color: rgba(255, 255, 255, 0.3) ;
     width: 100% ;
     padding: 10px ;
-    display: grid ;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px ;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 10px ; */
     grid-template-rows: auto ;
     align-items: center ;
     justify-content: space-around ;
@@ -59,8 +72,8 @@
 }
 
 .TechWrapper .Technologies img{
-    width: 40px ;
-    height: 40px ;
+    width: 30px ;
+    height: 3 0px ;
     background-color: transparent ;
 }
 
@@ -68,7 +81,19 @@
     animation: animate 2s ease 0s infinite ;
 }
 
-@keyframes animate{
+@keyframes animate {
+    0%{
+        scale: 1;
+    }
+    50% {
+        scale: 1.1;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+/* @keyframes animate{
   0%{
        
         transform: rotate(0);
@@ -95,7 +120,7 @@
 
 
 
-}
+} */
     
     
 
@@ -115,17 +140,18 @@
 }
 
 .TechWrapper a{
-    color: black ;
+    color: white ;
 }
 
 
 
 .Description{
-    background-color: white ;
+    background-color: rgba(255, 255, 255, 0.15) ;
     display: flex ;
     align-items: center ;
     justify-content: center ;
     padding: 10px ;
     margin: 3px 5px 3px 5px  ;
     border-radius: 10px ;
+    color: white;
 }
