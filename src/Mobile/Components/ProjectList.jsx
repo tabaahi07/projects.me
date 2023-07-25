@@ -6,7 +6,7 @@ import Project from './Project' ;
 const ProjectList = ()=> {
     return <div className={styles.ProjectList} >
         { config.projects.map(project => {
-              <Project id={project.id} > </Project>
+            return <Project id={project.id} > </Project>
         })}
     </div>
 }
