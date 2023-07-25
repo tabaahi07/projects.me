@@ -7,9 +7,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const HambergerMenu = ()=> {
     return <div className={styles.SocialLinks}>
-         <a href={config.socialLinks.github} target="_blank" > <GitHubIcon> </GitHubIcon> </a>
-         <a href={config.socialLinks.linkedin} target="_blank" > <LinkedInIcon></LinkedInIcon> </a>
-         <a href={config.socialLinks.instagram} target="_blank" > <InstagramIcon></InstagramIcon> </a>
+         <a href={config.socialLinks.github} target="_blank" > <GitHubIcon fontSize="large"> </GitHubIcon> </a>
+         <a href={config.socialLinks.linkedin} target="_blank" > <LinkedInIcon fontSize="large"></LinkedInIcon > </a>
+         <a href={config.socialLinks.instagram} target="_blank" > <InstagramIcon fontSize="large"></InstagramIcon> </a>
     </div>
 }
 

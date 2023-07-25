@@ -1,10 +1,11 @@
 .Project{
-    background-color: aquamarine;
-    border: 1px solid black ;
+    background-color: cyan;
+    border-radius: 10px ;
     display: grid ;
-    grid-template-rows: 0.3fr 3fr 1fr 2fr ;
+    grid-template-rows: auto ;
     padding: 5px 10px 10px 10px  ;
     margin: 5px ;
+    overflow-y: scroll ;
 }
 
 .Heading{
@@ -18,6 +19,7 @@
 }
 
 .AppScreenshot{
+    background-color: blueviolet;
     padding: 5px ;
     margin: 3px 5px 3px 5px  ;
     border-radius: 10px ;
@@ -29,11 +31,12 @@
 
 .AppScreenshot img{
     border-radius: 10px ;
-    height: 200px ;
-    width: 300px ;
+    height: auto ;
+    width: 100% ;
 }
 
 .TechWrapper{
+    background-color: aquamarine;
     display: flex ;
     align-items: center ;
     justify-content: center ;
@@ -43,22 +46,30 @@
 }
 
 .TechWrapper .Technologies{
-    height: 50px ;
+    background-color: white ;
     width: 100% ;
-    display: flex ;
+    padding: 10px ;
+    display: grid ;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px ;
+    grid-template-rows: auto ;
     align-items: center ;
     justify-content: space-around ;
-    border: 1px solid black ;
     border-radius: 10px ;
 }
 
-.TechWrapper .RepoLinkBtn{
+.TechWrapper .Technologies img{
     width: 40px ;
     height: 40px ;
+    background-color: transparent ;
+}
+
+.TechWrapper .RepoLinkBtn{
+    width: 50px ;
+    height: 50px ;
     display: flex ;
     align-items: center ;
-    border-radius: 50% ;
-    border: 1px solid black ;
+    
 }
 
 .TechWrapper .RepoLinkBtn button{
@@ -66,14 +77,18 @@
     border: none ;
 }
 
+.TechWrapper a{
+    color: black ;
+}
+
 
 
 .Description{
+    background-color: white ;
     display: flex ;
     align-items: center ;
     justify-content: center ;
     padding: 10px ;
     margin: 3px 5px 3px 5px  ;
-    border: 1px solid black ;
     border-radius: 10px ;
 }
