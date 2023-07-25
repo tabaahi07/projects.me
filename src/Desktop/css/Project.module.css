@@ -12,9 +12,13 @@
     background-color: blueviolet;
 }
 
-.ProjectScreenshot > img {
+.ProjectScreenshot > a > img {
     width: 100%;
     border-radius: 20px;
+}
+
+.ProjectScreenshot:hover {
+    scale: 1.02;
 }
 
 .ProjectDescription {
