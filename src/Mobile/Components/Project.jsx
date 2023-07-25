@@ -16,7 +16,9 @@ const Project = (props) => {
 
       <div className={styles.TechWrapper}>
         <div className={styles.Technologies}>
-          {config.projects[props.id].projectTechnologies.map((tech) => {})}
+          {config.projects[props.id].projectTechnologies.map((tech) => {
+            return <img src={tech} />
+          })}
         </div>
 
         <div className={styles.RepoLinkBtn}>
