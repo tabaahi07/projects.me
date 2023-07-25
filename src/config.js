@@ -7,13 +7,34 @@ import jsLogo from "./assets/JS.gif"
 import reactLogo from "./assets/react.gif"
 
 const Technologies = {
-    Reactjs: reactLogo,
-    HTML: htmlLogo,
-    CSS3: cssLogo,
-    JS: jsLogo,
-    API: apiLogo,
-    BOOTSTRAP: bootstrapLogo,
-    TAILWINDCSS: tailwindLogo
+    JS: {
+        logo : jsLogo ,
+        animate : false 
+    } ,
+    Reactjs: {
+        logo : reactLogo ,
+        animate : false 
+    } ,
+    HTML: {
+        logo : htmlLogo ,
+        animate : true 
+    },
+    CSS3: {
+        logo : cssLogo ,
+        animate : true 
+    },
+    API: {
+        logo :apiLogo ,
+        animate : true 
+    },
+    BOOTSTRAP: {
+        logo : bootstrapLogo ,
+        animate : true 
+    },
+    TAILWINDCSS: {
+        logo : tailwindLogo ,
+        animate : true 
+    }
 } 
 
 const config = {
@@ -33,7 +54,7 @@ const config = {
             projectScreenshotID: "11gWSyzxj9WUmXk-FISJdQ8nMWFZKsK9-",
             projectTechnologies: [
                 Technologies.Reactjs, Technologies.API, Technologies.JS, Technologies.HTML, Technologies.CSS3
-            ],
+            ], 
             projectGithubRepo : "https://github.com/tabaahi07/advice_generator" ,
             projectDescription: "I tell you about project! Project is big, big website made with website coding language, yes, yes! It has many colors, like rainbow, and pictures of funny animals. Maybe it's about animals or maybe about food, I not sure. But I think it has big buttons that make funny noises when you click! Boop boop! And there are many words, like story, story everywhere!"
         } ,

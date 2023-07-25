@@ -17,9 +17,9 @@ const Project = (props) => {
       <div className={styles.TechWrapper}>
         <div className={styles.Technologies}>
           {config.projects[props.id].projectTechnologies.map((tech) => {
-            return <img src={tech} />
+            return <img className={tech.animate && styles.Animate}  src={tech.logo} />
           })}
-        </div>
+        </div> 
 
         <div className={styles.RepoLinkBtn}>
           <button> <a href={config.projects[props.id].projectGithubRepo} target="_blank"> <GitHubIcon fontSize="large"/> </a> </button>
