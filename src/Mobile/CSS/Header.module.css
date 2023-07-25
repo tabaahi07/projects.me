@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
 .Header{
-    
+    background-color: cyan ;
+    padding: 10px ;
+    margin: 0 0 10px 0 ;
+    display: grid ;
+    grid-template-columns: 1fr 2fr 1fr ;
+    align-items: center ;
+    justify-content: start;
+    overflow: hidden ; 
+}
+
+.HambergerMenu button{
+    background-color: transparent ;
+    text-align: start ;
+   border-radius: 10px ;
+   border: none ;
+   padding: 10px ;
+}
+
+.Title{
+    font-family: 'Tangerine', cursive;
+    text-align: center ;
+    font-size: 35px ;
+}
+
+.CVBtn{
+    text-align :end ;
+}
+
+.CVBtn button{
+    background-color: azure;
+    padding: 10px ;
+    text-align: center ;
+    width: 50px ;
+    height: 50px ;
+    font-size: 20px ;
+    font-weight: bold ;
+    border-radius: 50% ;
+    border: none ;
+}
+
+.CVBtn button a {
+    text-decoration: none ;
+}
+
+.SocialLinks{
+    background-color: aquamarine ;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center ;
+    text-align: center ;
+    padding: 10px ;
 }
