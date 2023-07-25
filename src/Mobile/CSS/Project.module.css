@@ -1,0 +1,76 @@
+.Project{
+    background-color: aquamarine;
+    border: 1px solid black ;
+    display: grid ;
+    grid-template-rows: 0.3fr 3fr 1fr 2fr ;
+    padding: 5px 10px 10px 10px  ;
+    margin: 5px ;
+}
+
+.Heading{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    font-size: 1.5rem ;
+    font-weight: 500 ;
+    padding: 5px ;
+    margin: 3px 5px 3px 5px  ;
+}
+
+.AppScreenshot{
+    padding: 5px ;
+    margin: 3px 5px 3px 5px  ;
+    border-radius: 10px ;
+    border: 1px solid black ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+}
+
+.AppScreenshot img{
+    border-radius: 10px ;
+    height: 200px ;
+    width: 300px ;
+}
+
+.TechWrapper{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    padding: 10px ;
+    gap: 10px ;
+    margin: 3px 5px 3px 5px  ;
+}
+
+.TechWrapper .Technologies{
+    height: 50px ;
+    width: 100% ;
+    border: 1px solid black ;
+    border-radius: 10px ;
+}
+
+.TechWrapper .RepoLinkBtn{
+    width: 40px ;
+    height: 40px ;
+    display: flex ;
+    align-items: center ;
+    border-radius: 50% ;
+    border: 1px solid black ;
+}
+
+.TechWrapper .RepoLinkBtn button{
+    background-color: transparent ;
+    border: none ;
+}
+
+
+
+.Description{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    padding: 10px ;
+    margin: 3px 5px 3px 5px  ;
+    border: 1px solid black ;
+    border-radius: 10px ;
+}
