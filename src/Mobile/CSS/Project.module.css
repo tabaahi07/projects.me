@@ -1,16 +1,11 @@
 .Project{
-    /* background-color: ; */
+    background-color: cyan;
     border-radius: 10px ;
     display: grid ;
     grid-template-rows: auto ;
     padding: 5px 10px 10px 10px  ;
     margin: 5px ;
     overflow-y: scroll ;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(7.7px);
 }
 
 .Heading{
@@ -35,13 +30,7 @@
     justify-content: center ;
 }
 
-.AppScreenshot > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.AppScreenshot a img{
+.AppScreenshot img{
     border-radius: 10px ;
     height: auto ;
     width: 100% ;
@@ -77,42 +66,27 @@
     background-color: transparent ;
 }
 
-.Animate{
-    animation: animate 2s ease 0s infinite ;
+.Animate {
+  animation: animate 2s ease 0s infinite;
 }
 
-@keyframes animate {
-    0%{
-        scale: 1;
-    }
-    50% {
-        scale: 1.1;
-    }
-    100% {
-        scale: 1;
-    }
-}
-
-/* @keyframes animate{
+@keyframes animate{
   0%{
        
         transform: rotate(0);
     }
 
-    20%{
-       
-        transform: rotate(30deg);
-    }
+  20% {
+    transform: rotate(30deg);
+  }
 
-    40%{
-        
-        transform: rotate(0deg);
-    }
+  40% {
+    transform: rotate(0deg);
+  }
 
-    60%{
-        
-        transform: rotate(-30deg);
-    }
+  60% {
+    transform: rotate(-30deg);
+  }
 
     80%{
         transform: rotate(0deg) ;
@@ -134,9 +108,9 @@
     
 }
 
-.TechWrapper .RepoLinkBtn button{
-    background-color: transparent ;
-    border: none ;
+.TechWrapper .RepoLinkBtn button {
+  background-color: transparent;
+  border: none;
 }
 
 .TechWrapper a{
