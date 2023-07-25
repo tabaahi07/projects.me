@@ -11,7 +11,7 @@ const Project = (props) => {
       </div>
 
       <div className={styles.AppScreenshot}>
-        <img src={config.projects[props.id].projectScreenshot} />
+        <a > <img src={`https://drive.google.com/uc?export=view&id=${config.projects[props.id].projectScreenshotID}`} /> </a>
       </div>
 
       <div className={styles.TechWrapper}>
@@ -22,12 +22,12 @@ const Project = (props) => {
         </div>
 
         <div className={styles.RepoLinkBtn}>
-          <button> <GitHubIcon/>  </button>
+          <button> <a href={config.projects[props.id].projectGithubRepo} target="_blank"> <GitHubIcon fontSize="large"/> </a> </button>
         </div>
       </div>
 
       <div className={styles.Description}>
-        {config.projects[props.id].Description}
+        {config.projects[props.id].projectDescription}
       </div>
     </div>
   );

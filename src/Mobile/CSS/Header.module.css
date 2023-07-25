@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
 .Header{
-    background-color: cyan ;
+    background-color: antiquewhite; ;
     padding: 10px ;
     margin: 0 0 10px 0 ;
     display: grid ;
@@ -26,7 +26,9 @@
 }
 
 .CVBtn{
+    background-color: transparent ;
     text-align : end ;
+    
 }
 
 .CVBtn button{
@@ -39,7 +41,10 @@
     border-radius: 50% ;
     border: none ;
     text-align: start ;
-    background-color :aquamarine  ;
+}
+
+.CVBtn button::hover{
+    background-color: aqua;
 }
 
 .CVBtn button a {
@@ -53,4 +58,8 @@
     align-items: center ;
     text-align: center ;
     padding: 10px ;
+}
+
+.SocialLinks a {
+    color: black ;
 }
