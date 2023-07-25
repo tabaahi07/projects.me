@@ -7,7 +7,7 @@ const Projects = ({ project, side }) => {
         <div className={(side === "right") ? styles.ProjectsRight : styles.Projects}>
             {side === "right" && <ProjectDescription side={side} project={project} />}
             <div className={styles.ProjectScreenshot}>
-                <a href={project.projectLink}>
+                <a href={project.projectLink} target="_blank">
                     <img src={`https://drive.google.com/uc?export=view&id=${project.projectScreenshotID}`} alt="drive image" />
                 </a>
             </div>

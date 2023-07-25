@@ -1,131 +1,117 @@
-.Project{
-    background-color: cyan;
-    border-radius: 10px ;
-    display: grid ;
-    grid-template-rows: auto ;
-    padding: 5px 10px 10px 10px  ;
-    margin: 5px ;
-    overflow-y: scroll ;
+.Project {
+  background-color: cyan;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: auto;
+  padding: 5px 10px 10px 10px;
+  margin: 5px;
+  overflow-y: scroll;
 }
 
-.Heading{
-    display: flex ;
-    align-items: center ;
-    justify-content: center ;
-    font-size: 1.5rem ;
-    font-weight: 500 ;
-    padding: 5px ;
-    margin: 3px 5px 3px 5px  ;
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 5px;
+  margin: 3px 5px 3px 5px;
 }
 
-.AppScreenshot{
-    background-color: blueviolet;
-    padding: 5px ;
-    margin: 3px 5px 3px 5px  ;
-    border-radius: 10px ;
-    border: 1px solid black ;
-    display: flex ;
-    align-items: center ;
-    justify-content: center ;
+.AppScreenshot {
+  background-color: blueviolet;
+  padding: 5px;
+  margin: 3px 5px 3px 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.AppScreenshot img{
-    border-radius: 10px ;
-    height: auto ;
-    width: 100% ;
+.AppScreenshot img {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
 }
 
-.TechWrapper{
-    background-color: aquamarine;
-    display: flex ;
-    align-items: center ;
-    justify-content: center ;
-    padding: 10px ;
-    gap: 10px ;
-    margin: 3px 5px 3px 5px  ;
+.TechWrapper {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  margin: 3px 5px 3px 5px;
 }
 
-.TechWrapper .Technologies{
-    background-color: white ;
-    width: 100% ;
-    padding: 10px ;
-    display: grid ;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px ;
-    grid-template-rows: auto ;
-    align-items: center ;
-    justify-content: space-around ;
-    border-radius: 10px ;
+.TechWrapper .Technologies {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
 }
 
-.TechWrapper .Technologies img{
-    width: 40px ;
-    height: 40px ;
-    background-color: transparent ;
+.TechWrapper .Technologies img {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
 }
 
-.Animate{
-    animation: animate 2s ease 0s infinite ;
+.Animate {
+  animation: animate 2s ease 0s infinite;
 }
 
-@keyframes animate{
-  0%{
-       
-        transform: rotate(0);
-    }
+@keyframes animate {
+  0% {
+    transform: rotate(0);
+  }
 
-    20%{
-       
-        transform: rotate(30deg);
-    }
+  20% {
+    transform: rotate(30deg);
+  }
 
-    40%{
-        
-        transform: rotate(0deg);
-    }
+  40% {
+    transform: rotate(0deg);
+  }
 
-    60%{
-        
-        transform: rotate(-30deg);
-    }
+  60% {
+    transform: rotate(-30deg);
+  }
 
-    80%{
-        transform: rotate(0deg) ;
-    }
-
-
-
-}
-    
-    
-
-
-
-.TechWrapper .RepoLinkBtn{
-    width: 50px ;
-    height: 50px ;
-    display: flex ;
-    align-items: center ;
-    
+  80% {
+    transform: rotate(0deg);
+  }
 }
 
-.TechWrapper .RepoLinkBtn button{
-    background-color: transparent ;
-    border: none ;
+.TechWrapper .RepoLinkBtn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
-.TechWrapper a{
-    color: black ;
+.TechWrapper .RepoLinkBtn button {
+  background-color: transparent;
+  border: none;
 }
 
+.TechWrapper a {
+  color: black;
+}
 
-
-.Description{
-    background-color: white ;
-    display: flex ;
-    align-items: center ;
-    justify-content: center ;
-    padding: 10px ;
-    margin: 3px 5px 3px 5px  ;
-    border-radius: 10px ;
+.Description {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 3px 5px 3px 5px;
+  border-radius: 10px;
 }
