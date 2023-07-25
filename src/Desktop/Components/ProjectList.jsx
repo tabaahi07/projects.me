@@ -6,7 +6,11 @@ import config from '../../config';
 const ProjectList = () => {
     return (
         <div className={styles.ProjectList}>
-            <Projects project={config.projects[0]} />
+            {
+                config.projects.map((project) => {
+                    <Projects key={project.projectID} project={project} />
+                })
+            }
         </div>
     );
 }
