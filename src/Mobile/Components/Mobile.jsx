@@ -1,9 +1,15 @@
-import React  from "react";
-import styles from '../CSS/Mobile.module.css' ;
-import Header from "./Header";
+import React from 'react';
+import styles from "../CSS/Mobile.module.css"
+import Header from './Header';
+import ProjectList from './ProjectList';
 
-export default Mobile = ()=> {
-   return <div className={styles.Mobile} >
-       <Header> </Header>
-   </div>
+const Desktop = () => {
+    return (
+        <div className={styles.Mobile}>
+            <Header />
+            <ProjectList />
+        </div>
+    );
 }
+
+export default Desktop;

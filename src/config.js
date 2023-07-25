@@ -1,5 +1,6 @@
-export default config ={
+const config ={
     name : "Akrati Pandey" ,
+    resumeLink : "" ,
     socialLinks : {
         github : "https://github.com/tabaahi07" ,
         linkedin : "https://www.linkedin.com/in/akrati-pandey-a30b49273/" ,
@@ -20,3 +21,5 @@ export default config ={
 
 
 }
+
+export default config ;
