@@ -1,4 +1,26 @@
 .ProjectList {
     /* background-color: aquamarine; */
     padding: 20px;
+    overflow-y: scroll;
+}
+
+/* width */
+.ProjectList::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.ProjectList::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.ProjectList::-webkit-scrollbar-thumb {
+    background: #ffffffbb;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.ProjectList::-webkit-scrollbar-thumb:hover {
+    background: #ffffffee;
 }
