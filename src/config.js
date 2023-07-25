@@ -1,13 +1,19 @@
-
+import bootstrapLogo from "./assets/bootstrap.png"
+import cssLogo from "./assets/css-3.png"
+import htmlLogo from "./assets/html-5.png"
+import apiLogo from "./assets/icons8-api-96.png"
+import tailwindLogo from "./assets/icons8-tailwind-css-384.png"
+import jsLogo from "./assets/JS.gif"
+import reactLogo from "./assets/react.gif"
 
 const Technologies = {
-    Reactjs: "reactjs",
-    HTML: "html",
-    CSS3: "css3",
-    JS: "js",
-    API: "api",
-    BOOTSTRAP: "bootstrap",
-    TAILWINDCSS: "tailwind-css"
+    Reactjs: reactLogo,
+    HTML: htmlLogo,
+    CSS3: cssLogo,
+    JS: jsLogo,
+    API: apiLogo,
+    BOOTSTRAP: bootstrapLogo,
+    TAILWINDCSS: tailwindLogo
 }
 
 const config = {
