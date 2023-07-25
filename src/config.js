@@ -37,10 +37,6 @@ const config = {
             projectDescription: "I tell you about project! Project is big, big website made with website coding language, yes, yes! It has many colors, like rainbow, and pictures of funny animals. Maybe it's about animals or maybe about food, I not sure. But I think it has big buttons that make funny noises when you click! Boop boop! And there are many words, like story, story everywhere!"
         }
     ]
-
-     
-
-
 }
 
 export default config;
