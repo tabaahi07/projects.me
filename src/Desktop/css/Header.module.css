@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 .Header {
-    /* background-color: antiquewhite;     */
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 10px 25px;
+    background-color: antiquewhite;
+}
+
+.Title {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.SocialLinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.SocialLinks > a {
+    color: black;
+}
+
+.ResumeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ResumeBtn > a > button {
+    padding: 10px;
+    /* margin-right: 25px; */
+    border-radius: 10px;
+    font-weight: 600;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.ResumeBtn > a {
+    text-decoration: none;
 }

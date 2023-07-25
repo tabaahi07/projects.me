@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {
-        windowSize[0] < 600 ?  
+        windowSize[0] < 620 ?  
         <Mobile> </Mobile>
         :
         <Desktop />
