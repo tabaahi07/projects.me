@@ -1,0 +1,79 @@
+.Projects {
+    /* background-color: red; */
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 35% auto;
+    gap: 10px;
+}
+
+.ProjectScreenshot {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+.ProjectScreenshot > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ProjectDescription {
+    background-color: aquamarine;
+    padding: 10px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: min-content auto;
+}
+
+.ProjectDescriptionTitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 15px 0px;
+}
+
+.ProjectDescriptionContainer {
+    display: grid;
+    grid-template-columns: 35% auto;
+    gap: 10px;
+}
+
+.TechnologiesUsed {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.TechnologiesUsed > img {
+    mix-blend-mode: darken;
+    width: 80%;
+}
+
+.Description {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.RepoLink {
+    float: right;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 5px 5px;
+}
+
+.RepoLink > a {
+    color: black;
+}
