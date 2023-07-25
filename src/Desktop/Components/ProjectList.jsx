@@ -7,8 +7,8 @@ const ProjectList = () => {
     return (
         <div className={styles.ProjectList}>
             {
-                config.projects.map((project) => {
-                    <Projects key={project.projectID} project={project} />
+                config.projects.map((project, index) => {
+                    return <Projects key={project.projectID} side={(index % 2 === 0) ? "left" : "right"} project={project} />
                 })
             }
         </div>

@@ -2,15 +2,16 @@ import React from 'react';
 import styles from "../css/Project.module.css"
 import ProjectDescription from './ProjectDescription';
 
-const Projects = ({ project }) => {
+const Projects = ({ project, side }) => {
     return (
-        <div className={styles.Projects}>
+        <div className={(side === "right") ? styles.ProjectsRight : styles.Projects}>
+            {side === "right" && <ProjectDescription side={side} project={project} />}
             <div className={styles.ProjectScreenshot}>
                 <a href={project.projectLink}>
                     <img src={`https://drive.google.com/uc?export=view&id=${project.projectScreenshotID}`} alt="drive image" />
                 </a>
             </div>
-            <ProjectDescription project={project} />
+            {side === "left" && <ProjectDescription project={project} />}
         </div>
     );
 }
