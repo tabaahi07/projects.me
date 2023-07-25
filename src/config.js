@@ -8,6 +8,7 @@ export default config ={
 
     projects : [
         {
+            projectID : 0 ,
             projectName : "" ,
             projectScreenshot : "" ,
             projectTechnologies : [
