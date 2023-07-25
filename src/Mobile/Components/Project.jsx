@@ -11,7 +11,7 @@ const Project = (props) => {
       </div>
 
       <div className={styles.AppScreenshot}>
-        <a > <img src={`https://drive.google.com/uc?export=view&id=${config.projects[props.id].projectScreenshotID}`} /> </a>
+        <a href={config.projects[props.id].projectLiveLink} target="_blank"> <img src={`https://drive.google.com/uc?export=view&id=${config.projects[props.id].projectScreenshotID}`} /> </a>
       </div>
 
       <div className={styles.TechWrapper}>
