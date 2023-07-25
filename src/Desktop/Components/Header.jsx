@@ -18,7 +18,7 @@ const Header = () => {
                 {config.name}
             </div>
             <div className={styles.ResumeBtn}>
-                <a href="https://www.google.com" target="_blank">
+                <a href={config.resumeLink} target="_blank">
                     <button>Resume</button>
                 </a>
             </div>

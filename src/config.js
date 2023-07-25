@@ -51,6 +51,7 @@ const config = {
             projectID: 0,
             projectName: "Random Advice Generator",
             projectScreenshotID: "11gWSyzxj9WUmXk-FISJdQ8nMWFZKsK9-",
+            projectLiveLink : "https://64a848fd4686af0ade5f4b05--regal-hummingbird-ff74e5.netlify.app/" ,
             projectTechnologies: [
                 Technologies.Reactjs, Technologies.API, Technologies.JS, Technologies.HTML, Technologies.CSS3
             ], 
