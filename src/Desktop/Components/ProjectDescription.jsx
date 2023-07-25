@@ -22,7 +22,7 @@ const ProjectDescription = ({ project, side }) => {
                     <div className={(side === "right") ? styles.TechnologiesUsedRight : styles.TechnologiesUsed}>
                         {
                             project.projectTechnologies.map((tech, index) => {
-                                return <img key={index} src={tech} alt="Hello" />
+                                return <img className={tech.animate && styles.Animate} key={index} src={tech.logo} alt="Hello" />
                             })
                         }
                     </div>
