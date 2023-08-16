@@ -13,7 +13,7 @@ const ProjectDescription = ({ project, side }) => {
                 <div className={styles.Description}>
                     <div className={styles.ContentWrapper}>
                         <span className={(side === "right") ? styles.RepoLink : styles.RepoLinkLeft}>
-                            <a href="" target="_blank">
+                            <a href={project.projectGithubRepo} target="_blank" >
                                 <GitHubIcon fontSize='large' />
                             </a>
                         </span>
